@@ -1,0 +1,395 @@
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.container{
+    padding: 0 32px;
+    margin: 0 auto;
+}
+
+header{
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo{
+    width: 60%;
+}
+
+.logo{
+    width: 70px;
+}
+
+.nav__item{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-link, .phone{
+    text-decoration: none;
+    color: #212529;
+    line-height: 21px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero__container{
+    display: flex;
+    position: relative;
+    
+}
+
+.hero__title{
+    font-size: 72px;
+    line-height: 86px;
+    font-family: helvetica;
+    color: #212529;
+    text-transform: uppercase;
+    /* width: 60%; */
+
+}
+
+.hero__title__container-link{
+    /* width: 40%; */
+    bottom: 0;
+    text-align: right;
+
+}
+
+.hero__title-link{
+    color: #212529;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    width: 40%;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}
+
+.hero__content{
+    margin-top: 40px;
+    display: flex;
+    position: relative;
+} 
+
+
+.hero__descr{
+    max-width: 445px;
+    font-size: 20px;
+    line-height: 28px;
+    color: #212529;
+    font-family: 'Roboto', sans-serif;
+}
+
+.michael{
+    max-width: 329px;
+    max-height: 493px;
+    bottom: 0;
+    position: absolute;
+}
+
+.second__image{
+    text-align: right;
+}
+
+.spacejoy{
+    max-width: 678px;
+    max-height: 809px;
+}
+
+#about{
+    margin-top: 120px;
+    display: flex;    
+}
+
+.title__year{
+    width: 562px;
+    font-family: Helvetica;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+.about__text{
+    max-width: 446px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    
+} 
+
+.about__info{
+    margin-top: 40px;
+    width: 678px;
+
+}
+
+.about__info__block{
+    margin-bottom: 24px; 
+}
+
+.about__info__block-last{
+    margin-bottom: 0px;
+}
+
+.about__info__item{
+    font-family: Helvetica;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #212529;
+}
+
+
+.about__info__text{
+    width: 146px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+#steps{
+    margin-top: 120px;
+    display: flex;
+}
+
+.steps__text__descr{
+    width: 325px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;   
+}
+
+
+.steps__descr{
+    display: flex;
+    margin-top: 36px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #212529;
+}
+
+.first__line{
+    margin-top: 44px;
+}
+
+.steps__descr__title{
+    width: 328px;
+    font-family: Helvetica;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.steps__text{
+    width: 329px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+#project{
+    margin: 0;
+    margin-top: 120px;
+    display: flex;
+    flex-wrap: wrap;
+} 
+
+.variant__project{
+    max-width: 445px;
+    max-height: 580px;
+    margin-right: 16px;
+    margin-bottom: 20px;
+}
+
+.variant__project:nth-child(3n+3){
+    margin-right: 0px;
+}
+
+.title__testimonials{
+    font-family: Helvetica;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #212529;
+    margin-top: 100px
+}
+
+.bg{
+    border: 1px solid #212529;
+    width: 440px;
+    height: 327px;
+    text-align: center;
+    display: inline-block; 
+    margin-top: 32px;
+}
+
+.bg:nth-child(3){
+    margin: 0px 20px;
+}
+
+.icon{
+    margin-top: 40px;
+    width: 40px;
+    height: 40px;
+    
+}
+
+.name__feedback{
+    margin-top: 32px;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #212529;
+}
+
+.text__feedback{
+    margin-top: 20px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    color: #212529;
+}
+
+.form{
+    margin-top: 120px;
+    display: flex;
+}
+
+.form__text{
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    color: #212529;
+}
+
+.form__feedback{
+    margin-top: 72px;
+}
+
+input::placeholder{
+    opacity: 1;
+    color: #212529;
+}
+
+input{
+    height: 32px;
+    width: 100%;
+    border-color:white;
+    border-width:0;
+    color: #212529;
+    outline: none;
+}
+
+.form__name  {
+    width: 562px;
+    border-bottom: solid 2px #212529; 
+    margin-bottom: 15px; 
+    outline: none;
+}
+
+.form__mail{
+    width: 562px;
+    border-bottom: solid 2px #212529;
+    margin-bottom: 15px; 
+    outline: none;
+}
+
+.form__number{
+    width: 562px;
+    border-bottom: solid 2px #212529;
+    margin-bottom: 15px; 
+    outline: none;
+}
+
+.forrr{
+    margin-top: 36px;
+} 
+
+.send{
+  width: 176px;
+  height: 46px;
+  background-color: #212529;
+  color: white;
+  padding: 12px 20px;
+  cursor: pointer;
+}
+
+.send:hover{
+    background-color: #484d52;
+}
+
+.apps{
+    margin-top: 40px;
+}
+
+.google__play{
+    margin-left: 8px;
+}
+
+footer{
+    margin-top: 120px;
+    margin-bottom: 16px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__info{
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.conf{
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    text-align: center;
+}
+
+.social{
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.vk{
+    text-decoration: none;
+    color: #212529;
+}
+
+.tg{
+    text-decoration: none;
+    margin-left: 40px;
+    color: #212529;
+}
